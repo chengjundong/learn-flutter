@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:my_flutter_070400/learn/dart/future_study.dart';
 import 'package:my_flutter_070400/learn/dart/http_learn.dart';
-
-import 'learn/flutter/http_study.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,7 +33,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.red),
         useMaterial3: true,
       ),
-      home: const HttpStudy(),
+      home: FutureStudy(),
     );
   }
 }
